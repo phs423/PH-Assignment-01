@@ -180,13 +180,14 @@ button:hover{
     margin-bottom: 40px;
 }
 
-#section-2 .p3{
+#section-2 .list ul{
     color: #001931;
     font-size: 16px;
     font-weight: 500;
+    list-style: none;
 }
 
-#section-2 .p3 p{
+#section-2 .list li{
     margin-bottom: 16px;
 }
 
