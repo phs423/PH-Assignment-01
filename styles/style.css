@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 16px 0 16px 0;
+}
+
+.header-container button{
+    border: none;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.header-container ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.header-container ul, a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-section{
+    border: 1px solid red;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 115.5px 120px 179.5px;
+    background-image: url(../assets/hero-bg.png);
+}
+
+.banner-section .early-access{
+    color: #276941;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 1000px;
+    border: none;
+    padding: 8px 10px;
+    max-width: 229px;
+    margin: 0 auto;
+}
+
+.banner-section h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.banner-section h1 span{
+    color: #30B868;
+}
+
+.banner-section p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-section button{
+    color: #FFFFFF;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.banner-section button + button{
+    margin-left: 12px;
+}
+
+.banner-section .transparent-btn{
+    background-color: transparent;
+}
