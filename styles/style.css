@@ -236,7 +236,7 @@ button:hover{
 #footer-section{
     background-color: #001931;
     max-width: 1600px;
-    margin: 120px auto;
+    margin: 120px auto 0px;
     padding: 120px 120px 30px 120px;
 }
 
