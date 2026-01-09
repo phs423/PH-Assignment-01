@@ -51,6 +51,8 @@ button:hover{
     text-align: center;
     padding: 115.5px 120px 179.5px;
     background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .banner-section .early-access{
@@ -135,7 +137,7 @@ button:hover{
 #section-1 .section-1-box .section-1-card{
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.192);
     border-radius: 8px;
-    padding: 24px;
+    padding: 65px 24px 0px;
 }
 
 #section-1 .section-1-box .section-1-card img{
@@ -148,3 +150,42 @@ button:hover{
     padding: 16px;
 }
 
+#section-2{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 120px;
+}
+
+#section-2 .p1{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#section-2 h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#section-2 .p2{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#section-2 .p3{
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#section-2 .p3 p{
+    margin-bottom: 16px;
+}
