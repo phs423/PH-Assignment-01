@@ -231,3 +231,42 @@ button:hover{
     font-weight: 400;
     line-height: 20px;
 }
+
+#footer-section{
+    background-color: #001931;
+    max-width: 1600px;
+    margin: 120px auto;
+    padding: 120px 120px 30px 120px;
+}
+
+#footer-section .logo-social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+#footer-section .logo-social .social p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+    padding-right: 107px;
+}
+
+#footer-section .logo-social .social .social-icon{
+    display: flex;
+    gap: 16px;
+}
+
+#footer-section .cpy{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 110px;
+    padding-top: 30px;
+    border-top: 1px solid #ffffff28;
+}
